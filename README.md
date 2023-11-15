@@ -43,5 +43,8 @@ The test script follows these main steps:
 1. Execute the `setUp()` method to initialize the Appium driver.
 2. Run the `sampleTest()` method to execute the test.
 3. The test results, screenshots, and decoded QR code text will be displayed in the console.
-
-
+## Notes
+You shoul get your own token and user name by going MLive and choose a suitable device that you want to run script and click details and get "Automation" and take your own momentum option values like;
+        momentumOptions.put("user", "your username");
+        momentumOptions.put("token", "your token");
+        momentumOptions.put("gw", gw value of device);
